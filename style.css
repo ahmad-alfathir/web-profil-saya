@@ -1,0 +1,50 @@
+/* 1. RESET SEDERHANA & GAYA GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9; /* Abu-abu lembut yang nyaman di mata */
+    color: #333333;           /* Teks abu gelap, bukan hitam pekat */
+    line-height: 1.6;
+}
+
+/* 2. STYLING HEADER UTAMA (PARENT ATAS) */
+.header-utama {
+    background-color: #1e3a8e; /* Biru elegan */
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.header-utama h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.header-utama p {
+    font-size: 16px;
+    color: #cbd5e1;
+}
+
+/* 3. STYLING NAVIGASI */
+.navigasi-web {
+    margin-top: 15px;
+}
+
+.navigasi-web a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navigasi-web a:hover {
+    background-color: 3b82f6; /*Efek Hover saat mouse diarahkan */ 
+}
